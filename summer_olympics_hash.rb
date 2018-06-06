@@ -34,6 +34,7 @@ def iterate_through_hash
   olympics_hash[:Atlanta] = "1996"
 
   olympics_places = []
+  olympics_counter = 0
   while olympics_counter < olympics_hash.size
     olympics_places.push(olympics_hash.key().upcase)
   end
