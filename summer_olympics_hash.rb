@@ -49,4 +49,5 @@ def iterate_through_keys
   }
   olympics_hash[:Atlanta] = "1996"
   upcased_cities = olympics_hash.each_key
+  puts upcased_cities
 end
