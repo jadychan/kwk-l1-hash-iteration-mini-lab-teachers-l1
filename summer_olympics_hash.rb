@@ -32,7 +32,7 @@ def iterate_through_hash
     :London => "2012"
   }
   olympics_hash[:Atlanta] = "1996"
-  olympics_hash.each do |place, year|
+  olympics_hash.each do |place.upcase, year|
     puts "The #{place} summer olympics took place in #{year}."
   end
 
