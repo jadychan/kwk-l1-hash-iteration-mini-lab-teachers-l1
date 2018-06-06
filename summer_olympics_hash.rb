@@ -18,7 +18,7 @@ def add_a_key_value_pair
     :Beijing => "2008",
     :London => "2012"
   }
-  olympics_hash[:Atlanta] << "1996"
+  olympics_hash[:Atlanta] = "1996"
   return olympics_hash
 end
 
