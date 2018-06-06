@@ -7,7 +7,7 @@ def create_olympics_hash
     :Beijing => 2008,
     :London =>2012
   }
-  puts olympics_hash
+  return olympics_hash
 end
 create_olympics_hash
 def add_a_key_value_pair
