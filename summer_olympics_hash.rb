@@ -33,7 +33,6 @@ def iterate_through_hash
   }
   olympics_hash.each do |key, array|
     puts "The _____ summer olympics took place in ______."
-    puts array
   end
 
 end
