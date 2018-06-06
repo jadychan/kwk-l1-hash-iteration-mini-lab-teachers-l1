@@ -49,9 +49,11 @@ def iterate_through_keys
   }
   olympics_hash[:Atlanta] = "1996"
   upcased_cities = []
+  counter = 0
   olympics_hash.each_key {
     |place|
     upcased_cities[counter] = place
+    counter += 1
   }
   puts upcased_cities
 end
