@@ -31,8 +31,8 @@ def iterate_through_hash
     :Beijing => "2008",
     :London => "2012"
   }
-  olympics_hash.each do |place, value|
-    puts "The _____ summer olympics took place in ______."
+  olympics_hash.each do |place, year|
+    puts "The #{place} summer olympics took place in ______."
   end
 
 end
