@@ -35,7 +35,7 @@ def iterate_through_hash
 
   olympics_places = []
   olympics_hash.each do |place|
-    olympics_places = olympics_hash.collect{|place| 10*x}
+    olympics_places.push(place.key)
   end
   puts olympics_places
 
