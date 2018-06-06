@@ -35,7 +35,7 @@ def iterate_through_hash
 
   olympics_places = []
   olympics_hash.each do |place|
-    olympics_places[0] = place.upcase
+    olympics_places[0] = "place.upcase"
   end
   puts olympics_places
 
