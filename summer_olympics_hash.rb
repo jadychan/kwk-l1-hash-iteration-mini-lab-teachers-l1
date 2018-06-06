@@ -36,7 +36,7 @@ def iterate_through_hash
   olympics_places = []
   olympics_counter = 0
   while olympics_counter < olympics_hash.size
-    olympics_places.push(olympics_hash.key().upcase)
+    olympics_places.push(olympics_hash.key(olympics_counter).upcase)
     olympics_counter += 1
   end
 
