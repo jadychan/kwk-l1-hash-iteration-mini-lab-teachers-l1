@@ -33,15 +33,6 @@ def iterate_through_hash
   }
   olympics_hash[:Atlanta] = "1996"
 
-  olympics_places = []
-  olympics_counter = 0
-  while olympics_counter < olympics_hash.size
-    olympics_places.push(olympics_hash.key(olympics_counter))
-    olympics_counter += 1
-  end
-
-  puts olympics_places
-
   olympics_hash.each do |place, year|
     puts "The #{place} summer olympics took place in #{year}."
   end
