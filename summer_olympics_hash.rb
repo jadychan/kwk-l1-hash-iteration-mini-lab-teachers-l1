@@ -32,10 +32,10 @@ def iterate_through_hash
     :London => "2012"
   }
   olympics_hash.each do |key, array|
-  puts "#{key}-----"
-  puts array
-end
-  "The _____ summer olympics took place in ______."
+    puts "The _____ summer olympics took place in ______."
+    puts array
+  end
+
 end
 
 def iterate_through_keys
