@@ -48,4 +48,5 @@ def iterate_through_keys
     :London => "2012"
   }
   olympics_hash[:Atlanta] = "1996"
+  upcased_cities = olympics_hash.each_key
 end
